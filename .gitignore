@@ -1,7 +1,124 @@
-# Virtual environment
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
 venv/
+ENV/
+env/
+.env/
 .venv/
+venv.bak/
+venv_old/
 
-# KEYS 
+# Python environment manager
+.python-version
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy, Pyright, Pylint caches
+.mypy_cache/
+.pyright/
+.pylint.d/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and local runtime files
+logs/
+*.log
+*.out
+*.err
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and environment files
 .env
+.env.* 
+secrets.env
+*.pem
+*.key
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Static/media uploads (if any)
+uploads/
+media/
+staticfiles/
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Packaging
+dist/
+build/
+*.egg-info/
+
+# Coverage and profiling
+.prof
+.prof.*
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Optional: ignore local settings or credentials files
+local_settings.py
+credentials.json

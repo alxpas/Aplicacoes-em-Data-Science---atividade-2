@@ -1,9 +1,11 @@
-## ATIVIDADE  AULA 2  
+## ATIVIDADE  AULA 2
+
+
 1. Retome a Interface webmobile usando Gradio*
 (Sistema de Cadastro de Vendas) mostrada no começo desta aula. Naquele primeiro momento, essa interface armazenava os dados em um pequeno Banco de Dados usando SQLite, no seu próprio computador.  
 
 
-2.Nesta Aula 2 você deve fazer essa interface se comunicar com um Banco de Dados na plataforma www.supabase.com,
+2. Nesta Aula 2 você deve fazer essa interface se comunicar com um Banco de Dados na plataforma www.supabase.com,
 como explicado em aula. Todos os dados devem ser armazenados no SUPABASE ( e não mais num Banco Dados no seu computador)  
 
 

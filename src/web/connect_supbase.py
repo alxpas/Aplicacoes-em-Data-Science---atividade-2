@@ -74,7 +74,7 @@ def inicializar_supabase(
     # Cria cliente Supabase com tratamento de exceções
     try:
         logger.info("Criando cliente Supabase (variável de URL encontrada em %s).", url_var_name)
-        client = create_client(supabase_url, os.getenv(key_var_name))
+        client = create_client(supabase_url, os.getenv(key_var_name)) # type: ignore
     except Exception as e:
         logger.exception("Falha ao criar cliente Supabase: %s", e)
         return None, "error", "Falha ao criar cliente Supabase.", {**details, "exception": str(e)}

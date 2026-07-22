@@ -1,5 +1,5 @@
 from datetime import datetime
-from src.id_transacao import gerar_id_transacao
+from src.web.id_transacao import gerar_id_transacao
 
 def limpar_formulario():
     """Limpa todos os campos do formulário"""

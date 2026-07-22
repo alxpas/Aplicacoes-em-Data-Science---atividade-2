@@ -1,6 +1,6 @@
 import logging as logger
 from datetime import datetime
-from src.id_transacao import gerar_id_transacao
+from src.web.id_transacao import gerar_id_transacao
 
 
 # variável de módulo que será preenchida via setter
